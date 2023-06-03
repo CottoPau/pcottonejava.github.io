@@ -156,10 +156,6 @@ main{
    }
 
 
-
-
-
-
 #oradores{
 
     margin-top: 0px;
@@ -415,3 +411,155 @@ footer a:active{
     text-align: center;
 }
 
+.hide{
+
+    display: none;
+}
+.show{
+
+    display: block;
+}
+
+.formulario2{
+
+    width: 750px;
+    margin-left: 30.5%;
+  }
+
+
+.opcionTicket{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+   
+}
+
+.opcionEstudiante{
+
+
+    border: 1px solid  #0052bb ;
+    text-align: center;
+    margin: 2px;
+    width: 15%;
+
+}
+
+.opcionTrainee{
+
+
+    border: 1px solid  #008080 ;
+    text-align: center;
+    margin: 2px;
+    width: 15%;
+
+
+}
+.opcionJunior{
+
+
+    border: 1px solid  #FFC300;
+    text-align: center;
+    margin: 2px;
+    width: 15%;
+
+
+}
+
+.encabezadoTicket{
+
+    margin-top: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tieneDescuento{
+
+    margin-bottom: 10px;
+}
+
+.descuentoPorcentaje{
+ 
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pDocumentacion{
+
+   font-size: 15px;
+   color: #616161;
+
+}
+
+.tValor{
+
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.correo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    height: 34px;
+
+}
+.btn_opcionTicket{
+
+display: flex;
+
+
+}
+
+.form-label{
+
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: normal;
+
+}
+
+.alert{
+
+    margin-top: 15px;
+}
+
+.alert p{
+    text-align: left;
+    font-size: 18px;
+}
+.btnBorrar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+    height: 50px;
+    background-color: #02ff62;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn_resumen{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    width: 50%;
+    height: 50px;
+    background-color: #02ff62;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+.form-select{
+
+    height: 34px;
+
+}
